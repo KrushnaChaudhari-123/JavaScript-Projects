@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="project5.css" />
+  </head>
+  <body>
+    <div id="box">
+      <form onsubmit="calculate(); return false">
+        <h3>Please enter the temperature you'd like to convert.</h3>
+        <input type="number" id="number" />
+        <select name="list" id="list">
+          <option value="Feh">Fahrenheit</option>
+          <option value="Cel">Celsius</option></select
+        ><br /><br />
+        <button id="btn">Submit</button>
+        <br />
+        <span id="result"></span>
+      </form>
+    </div>
+    <script src="project5.js"></script>
+  </body>
+</html>

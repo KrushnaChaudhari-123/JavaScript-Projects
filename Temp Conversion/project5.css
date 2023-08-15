@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+    
+  
+}
+#box{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(226, 150, 163);
+    padding: 20px;
+    text-align: center;
+    border-radius: 
+}
